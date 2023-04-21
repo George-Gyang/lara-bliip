@@ -11,11 +11,11 @@
 }
 
 .navy-btn {
-    background-color: #00308f;
+    background-color: #001848;
 }
 
 .navy-btn:hover {
-    background-color: #001848;
+    background-color: #00308f;
 }
 
 .card-header {
@@ -32,3 +32,22 @@
 .form-container{
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
 }
+
+
+.plain-btn{
+    box-shadow: none !important;
+}
+
+.side-btn{
+    min-width: 200px;
+}
+
+.navy-border{
+    border: 2px solid #00308F;
+}
+/* .plain-btn:hover{
+    box-shadow: none !important;
+} */
+/* .plain-btn:focus{
+    box-shadow: none;
+} */
