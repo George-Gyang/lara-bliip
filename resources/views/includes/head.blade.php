@@ -13,6 +13,6 @@
 
 <!-- MDB -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+<script src="https://kit.fontawesome.com/5a651c1d41.js" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="/css/style.css">
-<script src="https://kit.fontawesome.com/5a651c1d41.js" crossorigin="anonymous"></script>

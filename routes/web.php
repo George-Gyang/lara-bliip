@@ -24,3 +24,11 @@ Route::get('/signup', function(){
 Route::get('/dashboard', function(){
     return view('pages/dashboard');
 });
+
+Route::get('profile', function(){
+    return view(('pages/profile'));
+});
+
+Route::get('subscription', function(){
+    return view('pages/subscribe');
+});
