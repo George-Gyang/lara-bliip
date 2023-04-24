@@ -107,11 +107,11 @@
                     <div class=" mb-5 justify-content-between">
                         <!-- <p class="text-black">Hi Moyin</p> -->
                         <div>
-                            <h4 class="fw-bold navy-text">Subscription</h4>
+                            <h4 class="fw-bold navy-tex">Subscription</h4>
                             <div class="card-shadow p-md-5">
                                 <div>
                                     <p class="fw-bolder text-dark">My Plan</p>
-                                    <div class="sky-bg p-3 rounded-4">
+                                    <div class="sky-bg p-3 mb-5 rounded-4">
                                         <div class="">
                                             <div class="d-flex justify-content-between">
                                                 <p class="text-primary">Subscription Info</p>
@@ -131,10 +131,57 @@
                                             </div>
                                         </div>
                                     </div>
-
+                                    <p class="fw-bolder text-da">Subscription History</p>
+                                    <div class=" border p-3 p-md-4 mb-5 rounded-4">
+                                        <div class="table-responsveness">
+                                            <!-- <table class="table table-">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">First</th>
+                                                        <th scope="col">Last</th>
+                                                        <th scope="col">Handle</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>Mark</td>
+                                                        <td>Otto</td>
+                                                        <td>@mdo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>Jacob</td>
+                                                        <td>Thornton</td>
+                                                        <td>@fat</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td colspan="2">Larry the Bird</td>
+                                                        <td>@twitter</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table> -->
+                                            <table class="table sub-table">
+                                                <tr class="sub-tr">
+                                                    <th class="border-end sub-th">Date</th>
+                                                    <th class="border-end sub-th">Plan</th>
+                                                    <th class="border-end sub-th">Code</th>
+                                                    <th class="border-end sub-th">Amount</th>
+                                                </tr>
+                                                <tr class="sub-tr">
+                                                    <td class="border-end sub-td"> 31st December 2023</td>
+                                                    <td class="border-end sub-td">Free Trial</td>
+                                                    <td class="border-end sub-td">AKVM 124</td>
+                                                    <td class="border-end sub-td">--</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
 
                                 </div>
-                                <p><a href="">Contact us for further help</a></p>
+                                <p class="ps-3 pb-3 ps-md-0"><a href="">Contact us for further help</a></p>
                             </div>
                         </div>
                     </div>

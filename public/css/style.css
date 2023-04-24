@@ -56,11 +56,11 @@
     border-radius: 16px;
 }
 
-.form-floating:focus{
+.form-floating:focus {
     border-color: none;
 }
 
-.input-outline{
+.input-outline {
     border: none;
     outline: none;
     border-bottom: 1px solid black;
@@ -68,9 +68,23 @@
     text-align: center;
 }
 
-
-.input-outline:focus{
+.input-outline:focus {
     outline: none !important;
     /* background-color: red; */
     /* border: 9px solid red ; */
+}
+
+@media (max-width: 768px) {
+    .sub-table {
+        border-collapse: collapse;
+    }
+    .sub-tr {
+        display: block;
+        float: left;
+    }
+    .sub-th,
+    .sub-td {
+        display: block;
+        /* border: 1px solid black; */
+    }
 }
