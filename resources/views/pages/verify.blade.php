@@ -4,16 +4,16 @@
 
 <div>
     <div class="container">
-        <div class="row">
+        <div class="row d-flex align-items-center">
             <div class="col-md-6 ">
-                <div class="container p-4">
+                <div class="container px-5">
                     <h2 class="navy-text display-3 fw-bold py-3">Verify your phone number</h2>
                     <div class="">
                         <p class="p-2">We have sent a verification code to *******8008</p>
                         <label for="exampleFormControlInput1" class="form-label">Enter code</label>
                         <div class="mb-3 d-flex">
                             <input type="email" class="form-control navy-border" id="exampleFormControlInput1" placeholder="name@example.com">
-                            <button class="btn ms-3 navy-bg text-white">Verify</button>
+                            <button class="btn ms-3 navy-btn text-white">Verify</button>
                         </div>
                     </div>
                     <div>

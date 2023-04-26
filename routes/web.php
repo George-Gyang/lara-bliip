@@ -17,23 +17,35 @@ Route::get('/', function () {
     return view('pages/index');
 });
 
-Route::get('/signup', function(){
+Route::get('/signup', function () {
     return view('pages/sign-up');
 });
 
-Route::get('/dashboard', function(){
+Route::get('/dashboard', function () {
     return view('pages/dashboard');
 });
 
-Route::get('profile', function(){
+Route::get('profile', function () {
     return view(('pages/profile'));
 });
 
-Route::get('subscription', function(){
+Route::get('subscription', function () {
     return view('pages/subscribe');
 });
 
-Route::get("verify", function(){
+Route::get("verify", function () {
 
     return view('pages/verify');
+});
+
+Route::get('api-usage', function () {
+    return view('pages/api-usage');
+});
+
+Route::get('risky-dormains', function () {
+    return view('pages/risky-dormain');
+});
+
+Route::get('non-risky', function(){
+return view('pages/non-risky');
 });
