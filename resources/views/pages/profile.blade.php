@@ -125,11 +125,11 @@
 
                                         <!-- Email input -->
                                         <div class="form-floating mb-5 border border-0">
-                                            <input type="tel" name="profileNumber" class="form-control  input-outline " id="floatingInput" placeholder="name@example.com">
+                                            <input type="tel" name="profileNumber" class="form-control input-outline " id="floatingInput" placeholder="name@example.com">
                                             <label for="floatingInput">Phone</label>
                                         </div>
                                         <!-- Submit button -->
-                                        <button type="submit" class="btn btn-primary my-5">Change</button>
+                                        <button type="submit" class="btn navy-btn text-light my-5">Change</button>
                                     </form>
                                 </div>
                                 <p><a href="">Contact us for further help</a></p>

@@ -107,14 +107,14 @@
                     <div class=" mb-5 justify-content-between">
                         <!-- <p class="text-black">Hi Moyin</p> -->
                         <div>
-                            <h4 class="fw-bold navy-tex">Subscription</h4>
+                            <h4 class="fw-bold navy-text">Subscription</h4>
                             <div class="card-shadow p-md-5">
                                 <div>
                                     <p class="fw-bolder text-dark">My Plan</p>
                                     <div class="sky-bg p-3 mb-5 rounded-4">
                                         <div class="">
                                             <div class="d-flex justify-content-between">
-                                                <p class="text-primary">Subscription Info</p>
+                                                <p class="text-primary text-uppercase">Subscription Info</p>
                                                 <button class=" btn navy-btn rounded-pill text-white">Free Trial</button>
                                             </div>
                                             <div class="d-flex pt-3">

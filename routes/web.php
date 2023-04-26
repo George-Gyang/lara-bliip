@@ -32,3 +32,8 @@ Route::get('profile', function(){
 Route::get('subscription', function(){
     return view('pages/subscribe');
 });
+
+Route::get("verify", function(){
+
+    return view('pages/verify');
+});
