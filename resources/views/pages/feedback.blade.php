@@ -107,37 +107,24 @@
                     <div class=" mb-5 justify-content-between">
                         <!-- <p class="text-black">Hi Moyin</p> -->
                         <div>
-                            <h4 class="fw-bolder text-primary">Api Usage Log</h4>
+                            <h4 class="fw-bolder prime-text">Feedback</h4>
                             <div class="card-shadow p-md-5">
                                 <div>
-                                    <div class="d-flex justify-content-between mb-3">
-                                        <p class="fw-bolder text-dark">Applied Filters</p>
-                                        <button class="btn navy-btn btn-sm text-light">Filters</button>
-                                    </div>
-                                    <div class=" border p-3 p-md-4 mb-5 rounded-4">
-                                        <div class="table-responsveness">
-                                            <table class="table sub-table">
-                                                <tr class="sub-tr">
-                                                    <th class="border-end sub-th">Channel OTP</th>
-                                                    <th class="border-end sub-th">Status</th>
-                                                    <th class="border-end sub-th">Time Created</th>
-                                                    <th class="border-end sub-th">Successful URL</th>
-                                                    <th class="border-end sub-th">Callback URL</th>
-                                                    <th class="border-end sub-th">Meta Data</th>
-                                                    <th class="border-end sub-th">Score</th>
-                                                </tr>
-                                                <tr class="sub-tr">
-                                                    <td class="border-end sub-td">--</td>
-                                                    <td class="border-end sub-td">--</td>
-                                                    <td class="border-end sub-td">--</td>
-                                                    <td class="border-end sub-td">--</td>
-                                                    <td class="border-end sub-td">--</td>
-                                                    <td class="border-end sub-td">--</td>
-                                                    <td class="border-end sub-td">--</td>
-                                                </tr>
-                                            </table>
-                                            <p class="text-center d-none d-md-block">Nothing here yet</p>
-                                        </div>
+                                    <div style="max-width: 600px;" class=" mx-auto px-5 p-md-4 mb-5">
+                                        <p class="neutral">Drop your observations, comments, reviews & complaints in the box below</p>
+                                        <form action="">
+                                            <div>
+                                                <div class="form-floating">
+                                                    <textarea name="comment" class="form-control comments" id="floatingTextarea"></textarea>
+                                                    <label for="floatingTextarea">Type your meaasge here</label>
+                                                </div>
+                                                <div class="d-grid my-4 gap-2 col-6 mx-auto mx-md-0 ">
+                                                    <button class="btn prime-btn text-white" type="submit">Send</button>
+                                                    <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                                                </div>
+                                                <!-- <button class="btn navy-btn">Send</button> -->
+                                            </div>
+                                        </form>
                                     </div>
 
                                 </div>

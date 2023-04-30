@@ -135,7 +135,7 @@
                                     </div>
 
                                 </div>
-                                <p class="ps-3 pb-3 ps-md-0"><a href="">Contact us for further help</a></p>
+                                <p class="ps-3 pb-3 ps-md-0 text-decoration-underline "><a href="">Contact us for further help</a></p>
                             </div>
                         </div>
                     </div>

@@ -107,7 +107,7 @@
                     <div class=" mb-5 justify-content-between">
                         <!-- <p class="text-black">Hi Moyin</p> -->
                         <div>
-                            <h4 class="fw-bolder text-primary">Risky Dormains</h4>
+                            <h4 class="fw-bolder navy-text text-primry">Risky Dormains</h4>
                             <div class="card-shadow p-md-5">
                                 <div>
                                     <div class="d-flex justify-content-between mb-3">
@@ -135,7 +135,7 @@
                                     </div>
 
                                 </div>
-                                <p class="ps-3 pb-3 ps-md-0"><a href="">Contact us for further help</a></p>
+                                <p class="ps-3 pb-3 ps-md-0 text-decoration-underline "><a href="">Contact us for further help</a></p>
                             </div>
                         </div>
                     </div>

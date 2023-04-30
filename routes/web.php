@@ -46,6 +46,18 @@ Route::get('risky-dormains', function () {
     return view('pages/risky-dormain');
 });
 
-Route::get('non-risky', function(){
-return view('pages/non-risky');
+Route::get('non-risky', function () {
+    return view('pages/non-risky');
+});
+
+Route::get('feedback', function () {
+    return view('pages/feedback');
+});
+
+Route::get('success', function(){
+    return view('pages/success');
+});
+
+Route::get('thank-you', function(){
+    return view('pages/thanks');
 });
