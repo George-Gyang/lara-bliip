@@ -42,8 +42,8 @@ Route::get('api-usage', function () {
     return view('pages/api-usage');
 });
 
-Route::get('risky-dormains', function () {
-    return view('pages/risky-dormain');
+Route::get('risky-domains', function () {
+    return view('pages/risky-domain');
 });
 
 Route::get('non-risky', function () {
@@ -60,4 +60,11 @@ Route::get('success', function(){
 
 Route::get('thank-you', function(){
     return view('pages/thanks');
+});
+
+Route::get('support', function(){
+    return view('pages/support');
+});
+Route::get('login', function(){
+    return view('pages/login');
 });

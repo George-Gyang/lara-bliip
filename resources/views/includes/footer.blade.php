@@ -3,9 +3,28 @@
             <div class="row">
               <div class="col-md-4">
                 <div>
-                  <div>
+                  <div class="col-4 mx-auto">
                     <img src={{ asset("images/Bliip-white.png")}} alt="" class="img-fluid">
                   </div>
+                    <!-- Register buttons -->
+                    <div class="text-center py-4">
+                                <!-- <p>or sign up with:</p> -->
+                                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                                    <i class="fab fa-google"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </div>
                 </div>
               </div>
               <div class="col-md-4">
@@ -29,7 +48,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="px-5 px-md-0 col-md-4">
                 <div>
                   <p class="text-center text-white text-center py-3">Subscribe to our Newsletter</p>
                   <div class="input-group mb-3">

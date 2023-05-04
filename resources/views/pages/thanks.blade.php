@@ -17,7 +17,7 @@
             </div>
             <div class="d-grid gap-2 col-6 mx-auto">
                 <button class="btn navy-btn text-white mb-3" type="button">Login</button>
-                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                <!-- <button class="btn btn-primary" type="button">Button</button> mamas aqnd papas-->
             </div>
         </div>
     </div>

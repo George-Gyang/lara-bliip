@@ -51,7 +51,7 @@
       <div><a href=""><img src="{{ asset('images/Bliip.png') }}" alt="Bliip Logo"></a></div>
       <!-- Left links -->
       <ul class="navbar-nav d-md-flex align-items-center m-auto mb-2 mb-lg-0">
-        <li class="list"><a class="nav-link text-primary" href="">Home</a></li>
+        <li class="list"><a class="nav-link text-primary" href="/">Home</a></li>
         <li>
           <div class="dropdown">
             <button class="btn plain-btn border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -88,32 +88,30 @@
     <!-- Collapsible wrapper -->
 
     <!-- Right elements -->
-    <div class="d-md-none d-flex align-items-center">
+    <div class="d-md-none d-flex justify-content-end">
       <!-- Icon -->
       <!-- <a class="text-reset me-3" href="#">
         <i class="fas fa-shopping-cart"></i>
       </a> -->
 
-      <div><a href=""><img src="{{ asset('images/Bliip.png') }}" alt="Bliip Logo"></a></div>
+      <div class="col-6"><a href=""><img class="img-fluid" src="{{ asset('images/Bliip.png') }}" alt="Bliip Logo"></a></div>
+      <!-- side bar -->
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        <i class="fas fa-bars"></i>
+      </button>
 
-      <!-- Notifications -->
-      <!-- <div class="dropdown">
-        <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-          <i class="fas fa-bell"></i>
-          <span class="badge rounded-pill badge-notification bg-danger">1</span>
-        </a>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-          <li>
-            <a class="dropdown-item" href="#">Some news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Another news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </li>
-        </ul>
-      </div> -->
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+          <div class=" d-block d-md-none">
+            @include('includes.sidebar')
+          </div>
+        </div>
+      </div>
       <!-- Avatar -->
       <!-- <div class="dropdown">
         <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
