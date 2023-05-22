@@ -1,0 +1,23 @@
+.irescue_container {
+    color: #595959;
+}
+
+.main_bg_color {
+    background-color: #595959;
+}
+.main_color {
+    background-color: #595959;
+}
+.label{
+    word-wrap: normal;
+}
+input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black; /* You can adjust the color and thickness of the outline */
+    width: 100%;
+  }
+  
+  .mt-n4{
+    margin-top: -1.5rem;
+  }

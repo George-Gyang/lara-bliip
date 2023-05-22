@@ -54,17 +54,20 @@ Route::get('feedback', function () {
     return view('pages/feedback');
 });
 
-Route::get('success', function(){
+Route::get('success', function () {
     return view('pages/success');
 });
 
-Route::get('thank-you', function(){
+Route::get('thank-you', function () {
     return view('pages/thanks');
 });
 
-Route::get('support', function(){
+Route::get('support', function () {
     return view('pages/support');
 });
-Route::get('login', function(){
+Route::get('login', function () {
     return view('pages/login');
+});
+Route::get('form', function () {
+    return view('/form');
 });
