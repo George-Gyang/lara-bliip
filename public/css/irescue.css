@@ -1,5 +1,5 @@
 .irescue_container {
-    color: #595959;
+    /* color: #595959; */
 }
 
 .main_bg_color {
@@ -8,16 +8,29 @@
 .main_color {
     background-color: #595959;
 }
-.label{
+.label {
     word-wrap: normal;
+    font-size: 0.8rem;
 }
 input {
     border: none;
     outline: none;
     border-bottom: 1px solid black; /* You can adjust the color and thickness of the outline */
     width: 100%;
-  }
-  
-  .mt-n4{
+}
+
+.mt-n5 {
     margin-top: -1.5rem;
-  }
+    margin-left: 7rem;
+}
+.border_space {
+    background-color: #f2f2f2;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+    .header_one {
+        margin-bottom: -4rem;
+    }
+}
